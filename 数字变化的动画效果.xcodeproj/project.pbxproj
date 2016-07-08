@@ -15,6 +15,7 @@
 		166FA85A1D2F7FFA00FA5664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166FA8581D2F7FFA00FA5664 /* LaunchScreen.storyboard */; };
 		166FA8651D2F7FFB00FA5664 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166FA8641D2F7FFB00FA5664 /* _________Tests.m */; };
 		166FA8701D2F7FFB00FA5664 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166FA86F1D2F7FFB00FA5664 /* _________UITests.m */; };
+		166FA87F1D2F805C00FA5664 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 166FA87E1D2F805C00FA5664 /* UICountingLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		166FA86B1D2F7FFB00FA5664 /* 数字变化的动画效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "数字变化的动画效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		166FA86F1D2F7FFB00FA5664 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
 		166FA8711D2F7FFB00FA5664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166FA87D1D2F805C00FA5664 /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		166FA87E1D2F805C00FA5664 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		166FA8491D2F7FFA00FA5664 /* 数字变化的动画效果 */ = {
 			isa = PBXGroup;
 			children = (
+				166FA87D1D2F805C00FA5664 /* UICountingLabel.h */,
+				166FA87E1D2F805C00FA5664 /* UICountingLabel.m */,
 				166FA84D1D2F7FFA00FA5664 /* AppDelegate.h */,
 				166FA84E1D2F7FFA00FA5664 /* AppDelegate.m */,
 				166FA8501D2F7FFA00FA5664 /* ViewController.h */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				166FA8521D2F7FFA00FA5664 /* ViewController.m in Sources */,
+				166FA87F1D2F805C00FA5664 /* UICountingLabel.m in Sources */,
 				166FA84F1D2F7FFA00FA5664 /* AppDelegate.m in Sources */,
 				166FA84C1D2F7FFA00FA5664 /* main.m in Sources */,
 			);
