@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		166FA84C1D2F7FFA00FA5664 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 166FA84B1D2F7FFA00FA5664 /* main.m */; };
+		166FA84F1D2F7FFA00FA5664 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 166FA84E1D2F7FFA00FA5664 /* AppDelegate.m */; };
+		166FA8521D2F7FFA00FA5664 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 166FA8511D2F7FFA00FA5664 /* ViewController.m */; };
+		166FA8551D2F7FFA00FA5664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166FA8531D2F7FFA00FA5664 /* Main.storyboard */; };
+		166FA8571D2F7FFA00FA5664 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 166FA8561D2F7FFA00FA5664 /* Assets.xcassets */; };
+		166FA85A1D2F7FFA00FA5664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 166FA8581D2F7FFA00FA5664 /* LaunchScreen.storyboard */; };
+		166FA8651D2F7FFB00FA5664 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166FA8641D2F7FFB00FA5664 /* _________Tests.m */; };
+		166FA8701D2F7FFB00FA5664 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 166FA86F1D2F7FFB00FA5664 /* _________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		166FA8611D2F7FFA00FA5664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166FA83F1D2F7FFA00FA5664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166FA8461D2F7FFA00FA5664;
+			remoteInfo = "数字变化的动画效果";
+		};
+		166FA86C1D2F7FFB00FA5664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 166FA83F1D2F7FFA00FA5664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 166FA8461D2F7FFA00FA5664;
+			remoteInfo = "数字变化的动画效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		166FA8471D2F7FFA00FA5664 /* 数字变化的动画效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "数字变化的动画效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		166FA84B1D2F7FFA00FA5664 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		166FA84D1D2F7FFA00FA5664 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		166FA84E1D2F7FFA00FA5664 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		166FA8501D2F7FFA00FA5664 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		166FA8511D2F7FFA00FA5664 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		166FA8541D2F7FFA00FA5664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		166FA8561D2F7FFA00FA5664 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		166FA8591D2F7FFA00FA5664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		166FA85B1D2F7FFA00FA5664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166FA8601D2F7FFA00FA5664 /* 数字变化的动画效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "数字变化的动画效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		166FA8641D2F7FFB00FA5664 /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		166FA8661D2F7FFB00FA5664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		166FA86B1D2F7FFB00FA5664 /* 数字变化的动画效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "数字变化的动画效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		166FA86F1D2F7FFB00FA5664 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
+		166FA8711D2F7FFB00FA5664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		166FA8441D2F7FFA00FA5664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166FA85D1D2F7FFA00FA5664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166FA8681D2F7FFB00FA5664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		166FA83E1D2F7FFA00FA5664 = {
+			isa = PBXGroup;
+			children = (
+				166FA8491D2F7FFA00FA5664 /* 数字变化的动画效果 */,
+				166FA8631D2F7FFB00FA5664 /* 数字变化的动画效果Tests */,
+				166FA86E1D2F7FFB00FA5664 /* 数字变化的动画效果UITests */,
+				166FA8481D2F7FFA00FA5664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		166FA8481D2F7FFA00FA5664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				166FA8471D2F7FFA00FA5664 /* 数字变化的动画效果.app */,
+				166FA8601D2F7FFA00FA5664 /* 数字变化的动画效果Tests.xctest */,
+				166FA86B1D2F7FFB00FA5664 /* 数字变化的动画效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		166FA8491D2F7FFA00FA5664 /* 数字变化的动画效果 */ = {
+			isa = PBXGroup;
+			children = (
+				166FA84D1D2F7FFA00FA5664 /* AppDelegate.h */,
+				166FA84E1D2F7FFA00FA5664 /* AppDelegate.m */,
+				166FA8501D2F7FFA00FA5664 /* ViewController.h */,
+				166FA8511D2F7FFA00FA5664 /* ViewController.m */,
+				166FA8531D2F7FFA00FA5664 /* Main.storyboard */,
+				166FA8561D2F7FFA00FA5664 /* Assets.xcassets */,
+				166FA8581D2F7FFA00FA5664 /* LaunchScreen.storyboard */,
+				166FA85B1D2F7FFA00FA5664 /* Info.plist */,
+				166FA84A1D2F7FFA00FA5664 /* Supporting Files */,
+			);
+			path = "数字变化的动画效果";
+			sourceTree = "<group>";
+		};
+		166FA84A1D2F7FFA00FA5664 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				166FA84B1D2F7FFA00FA5664 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		166FA8631D2F7FFB00FA5664 /* 数字变化的动画效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				166FA8641D2F7FFB00FA5664 /* _________Tests.m */,
+				166FA8661D2F7FFB00FA5664 /* Info.plist */,
+			);
+			path = "数字变化的动画效果Tests";
+			sourceTree = "<group>";
+		};
+		166FA86E1D2F7FFB00FA5664 /* 数字变化的动画效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				166FA86F1D2F7FFB00FA5664 /* _________UITests.m */,
+				166FA8711D2F7FFB00FA5664 /* Info.plist */,
+			);
+			path = "数字变化的动画效果UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		166FA8461D2F7FFA00FA5664 /* 数字变化的动画效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166FA8741D2F7FFB00FA5664 /* Build configuration list for PBXNativeTarget "数字变化的动画效果" */;
+			buildPhases = (
+				166FA8431D2F7FFA00FA5664 /* Sources */,
+				166FA8441D2F7FFA00FA5664 /* Frameworks */,
+				166FA8451D2F7FFA00FA5664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数字变化的动画效果";
+			productName = "数字变化的动画效果";
+			productReference = 166FA8471D2F7FFA00FA5664 /* 数字变化的动画效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		166FA85F1D2F7FFA00FA5664 /* 数字变化的动画效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166FA8771D2F7FFB00FA5664 /* Build configuration list for PBXNativeTarget "数字变化的动画效果Tests" */;
+			buildPhases = (
+				166FA85C1D2F7FFA00FA5664 /* Sources */,
+				166FA85D1D2F7FFA00FA5664 /* Frameworks */,
+				166FA85E1D2F7FFA00FA5664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166FA8621D2F7FFA00FA5664 /* PBXTargetDependency */,
+			);
+			name = "数字变化的动画效果Tests";
+			productName = "数字变化的动画效果Tests";
+			productReference = 166FA8601D2F7FFA00FA5664 /* 数字变化的动画效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		166FA86A1D2F7FFB00FA5664 /* 数字变化的动画效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 166FA87A1D2F7FFB00FA5664 /* Build configuration list for PBXNativeTarget "数字变化的动画效果UITests" */;
+			buildPhases = (
+				166FA8671D2F7FFB00FA5664 /* Sources */,
+				166FA8681D2F7FFB00FA5664 /* Frameworks */,
+				166FA8691D2F7FFB00FA5664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				166FA86D1D2F7FFB00FA5664 /* PBXTargetDependency */,
+			);
+			name = "数字变化的动画效果UITests";
+			productName = "数字变化的动画效果UITests";
+			productReference = 166FA86B1D2F7FFB00FA5664 /* 数字变化的动画效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		166FA83F1D2F7FFA00FA5664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王奥东";
+				TargetAttributes = {
+					166FA8461D2F7FFA00FA5664 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+					};
+					166FA85F1D2F7FFA00FA5664 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 166FA8461D2F7FFA00FA5664;
+					};
+					166FA86A1D2F7FFB00FA5664 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3TP2S3N87D;
+						TestTargetID = 166FA8461D2F7FFA00FA5664;
+					};
+				};
+			};
+			buildConfigurationList = 166FA8421D2F7FFA00FA5664 /* Build configuration list for PBXProject "数字变化的动画效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 166FA83E1D2F7FFA00FA5664;
+			productRefGroup = 166FA8481D2F7FFA00FA5664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				166FA8461D2F7FFA00FA5664 /* 数字变化的动画效果 */,
+				166FA85F1D2F7FFA00FA5664 /* 数字变化的动画效果Tests */,
+				166FA86A1D2F7FFB00FA5664 /* 数字变化的动画效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		166FA8451D2F7FFA00FA5664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166FA85A1D2F7FFA00FA5664 /* LaunchScreen.storyboard in Resources */,
+				166FA8571D2F7FFA00FA5664 /* Assets.xcassets in Resources */,
+				166FA8551D2F7FFA00FA5664 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166FA85E1D2F7FFA00FA5664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166FA8691D2F7FFB00FA5664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		166FA8431D2F7FFA00FA5664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166FA8521D2F7FFA00FA5664 /* ViewController.m in Sources */,
+				166FA84F1D2F7FFA00FA5664 /* AppDelegate.m in Sources */,
+				166FA84C1D2F7FFA00FA5664 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166FA85C1D2F7FFA00FA5664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166FA8651D2F7FFB00FA5664 /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		166FA8671D2F7FFB00FA5664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166FA8701D2F7FFB00FA5664 /* _________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		166FA8621D2F7FFA00FA5664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166FA8461D2F7FFA00FA5664 /* 数字变化的动画效果 */;
+			targetProxy = 166FA8611D2F7FFA00FA5664 /* PBXContainerItemProxy */;
+		};
+		166FA86D1D2F7FFB00FA5664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 166FA8461D2F7FFA00FA5664 /* 数字变化的动画效果 */;
+			targetProxy = 166FA86C1D2F7FFB00FA5664 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		166FA8531D2F7FFA00FA5664 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166FA8541D2F7FFA00FA5664 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		166FA8581D2F7FFA00FA5664 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				166FA8591D2F7FFA00FA5664 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		166FA8721D2F7FFB00FA5664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		166FA8731D2F7FFB00FA5664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		166FA8751D2F7FFB00FA5664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "数字变化的动画效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		166FA8761D2F7FFB00FA5664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "数字变化的动画效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		166FA8781D2F7FFB00FA5664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "数字变化的动画效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/数字变化的动画效果.app/数字变化的动画效果";
+			};
+			name = Debug;
+		};
+		166FA8791D2F7FFB00FA5664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "数字变化的动画效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/数字变化的动画效果.app/数字变化的动画效果";
+			};
+			name = Release;
+		};
+		166FA87B1D2F7FFB00FA5664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "数字变化的动画效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "数字变化的动画效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		166FA87C1D2F7FFB00FA5664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "数字变化的动画效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aodong.---------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "数字变化的动画效果";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		166FA8421D2F7FFA00FA5664 /* Build configuration list for PBXProject "数字变化的动画效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166FA8721D2F7FFB00FA5664 /* Debug */,
+				166FA8731D2F7FFB00FA5664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		166FA8741D2F7FFB00FA5664 /* Build configuration list for PBXNativeTarget "数字变化的动画效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166FA8751D2F7FFB00FA5664 /* Debug */,
+				166FA8761D2F7FFB00FA5664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		166FA8771D2F7FFB00FA5664 /* Build configuration list for PBXNativeTarget "数字变化的动画效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166FA8781D2F7FFB00FA5664 /* Debug */,
+				166FA8791D2F7FFB00FA5664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		166FA87A1D2F7FFB00FA5664 /* Build configuration list for PBXNativeTarget "数字变化的动画效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				166FA87B1D2F7FFB00FA5664 /* Debug */,
+				166FA87C1D2F7FFB00FA5664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 166FA83F1D2F7FFA00FA5664 /* Project object */;
+}
